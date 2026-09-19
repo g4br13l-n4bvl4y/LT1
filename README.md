@@ -18,17 +18,54 @@ Using a valid Python IDE like PyCharm, make sure to:
 The user should only enter the circular garden's radius in meters.
 
 ## Sample Output
-Input: Please enter your garden's radius measurement (in meters): 8<br>
+Input: Please enter your garden's radius measurement (in meters): 8
 
-Output: <br>==================================================<br>
-Area of the garden: 201.06 square meters<br>
-Circumference of the garden: 50.27 square meters<br>
-Square root of the area: 14.18<br>
-Area rounded down: 201 square meters<br>
-Area rounded up: 202 square meters<br>
-==================================================<br>
+Output: \==================================================\
+Area of the garden: 201.06 square meters\
+Circumference of the garden: 50.27 square meters\
+Square root of the area: 14.18\
+Area rounded down: 201 square meters\
+Area rounded up: 202 square meters\
+==================================================
+
+## Computational Thinking
+- **Problem Identification**
+  - Get the area, circumference, square root of the area, area's floor value and ceiling value of the circular garden.
+- **Problem Decomposition**
+  - Ask the user for the circular garden's radius in meters.
+  - Calculate the area, circumference, square root of the area, area's floor value and ceiling value of the circular garden using the math library.
+  - Display the calculated values.
+- **Pattern Recognition**
+  - For every value needed to calculate the circular garden's values:
+    - area = pi * radius^2
+    - circumference = 2 * pi * r
+    - square root of the area = sqrt(area)
+    - area rounded down = floor(area)
+    - area rounded up = ceil(area)
+- **Data Representation**
+  - Data is represented in real form.
+- **Algorithm Development**
+```commandline
+Function Main
+    Declare Real GardenRadius, GardenArea, GardenCircumference, AreaSqrt, AreaRoundDown, AreaRoundUp
+    
+    Output "Please enter your garden's radius measurement in meters: "
+    Input GardenRadius
+    
+    Assign GardenArea = pi * pow(GardenRadius, 2)
+    Assign GardenCirumference = 2 * pi * GardenRadius
+    Assign AreaSqrt = sqrt(GardenArea)
+    Assign AreaRoundDown = floor(GardenArea)
+    Assign AreaRoundUp = ceil(GardeArea)
+    
+    Output "Area of the garden: ", GardenArea
+    Output "Circumference of the garden: ", GardenCircumference
+    Output "Square root of the area: ", AreaSqrt
+    Output "Area rounded down: ", AreaRoundDown
+    Output "Area rounded up: ", AreaRoundUp   
+```
 
 ## Author
-**Name**: Gabriel Seth B. Nabulay<br>
+**Name**: Gabriel Seth B. Nabulay\
 **Grade and Section**: 8 - Adelfa
 
