@@ -25,7 +25,7 @@ Area of the garden: 201.06 square meters\
 Circumference of the garden: 50.27 square meters\
 Square root of the area: 14.18\
 Area rounded down: 201 square meters\
-Area rounded up: 202 square meters\
+Area rounded up: 202 square meters<br>
 ==================================================
 
 ## Computational Thinking
