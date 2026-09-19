@@ -18,15 +18,15 @@ Using a valid Python IDE like PyCharm, make sure to:
 The user should only enter the circular garden's radius in meters.
 
 ## Sample Output
-`Input: Please enter your garden's radius measurement (in meters): 8`
+Input: Please enter your garden's radius measurement (in meters): 8<br>
 
-`Output: ==================================================
-Area of the garden: 201.06 square meters
-Circumference of the garden: 50.27 square meters
-Square root of the area: 14.18
-Area rounded down: 201 square meters
-Area rounded up: 202 square meters
-==================================================`
+Output: <br>==================================================<br>
+Area of the garden: 201.06 square meters<br>
+Circumference of the garden: 50.27 square meters<br>
+Square root of the area: 14.18<br>
+Area rounded down: 201 square meters<br>
+Area rounded up: 202 square meters<br>
+==================================================<br>
 
 ## Author
 **Name**: Gabriel Seth B. Nabulay<br>
